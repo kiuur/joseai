@@ -157,7 +157,7 @@ app.get('/api/books', async (req, res) => {
 async function getChatResponse(message) {
     try {
         // Ambil API key dari Pastebin
-        const apiKeyResponse = await axios.get('https://pastebin.com/raw/ig32YXVm');
+        const apiKeyResponse = await axios.get('https://pastebin.com/raw/Ueh8ZGk3');
         const groqApiKey = apiKeyResponse.data.trim();
 
         if (!groqApiKey) {
